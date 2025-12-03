@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Category Search</title>
+</head>
+<body style="font-family: Arial;">
+
+    <h2 style="text-align:center;">Search Products by Category</h2>
+
+    <form action="search" method="get" style="width: 40%; margin: auto;">
+        <table style="background-color: #f0f0f0; padding: 20px; border-radius: 8px;" align="center">
+
+            <tr>
+                <td><label for="cat">Select Category :</label></td>
+                <td>
+                    <select id="cat" name="category" required>
+                        <option value="">-- Select Category --</option>
+
+                        <option value="Electronics">Electronics</option>
+                        <option value="Mobiles">Mobiles</option>
+                        <option value="Laptops">Laptops</option>
+                        <option value="Home Appliances">Home Appliances</option>
+                        <option value="Fashion">Fashion</option>
+                        <option value="Men Clothing">Men Clothing</option>
+                        <option value="Women Clothing">Women Clothing</option>
+                        <option value="Footwear">Footwear</option>
+                        <option value="Beauty & Personal Care">Beauty and Personal Care</option>
+                        <option value="Sports">Sports</option>
+                        <option value="Furniture">Furniture</option>
+                        <option value="Books">Books</option>
+                        <option value="Groceries">Groceries</option>
+                        <option value="Toys">Toys</option>
+                        <option value="Automobile Accessories">Automobile Accessories</option>
+
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align:center; padding-top: 15px;">
+                    <input type="submit" value="Search Products">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+</html>
